@@ -5,23 +5,23 @@ import { Star } from "lucide-react"
 
 const testimonials = [
   {
-    initials: "LA",
-    name: "Leslie Alexander",
-    role: "Startup Founder",
-    text: "Mohamed's attention to UI detail is outstanding for someone his age. He built our landing page and it looks better than anything our agency has made. Delivered on time, no back and forth."
+    initials: "SA",
+    name: "Sarah Anderson",
+    role: "CEO, RetailCorp",
+    text: "Nexus Software Services transformed our online presence with a robust e-commerce platform. Their team's expertise in full-stack development and attention to detail exceeded our expectations."
   },
   {
-    initials: "JJ",
-    name: "Jacob Jones",
-    role: "Tech Lead",
-    text: "He doesn't just build what you ask — he thinks about what you actually need. The REST API he built for us was clean, modular and easy for our team to extend. Rare skill.",
+    initials: "MJ",
+    name: "Michael Johnson",
+    role: "CTO, FinTech Solutions",
+    text: "The custom API suite they built for us handles thousands of transactions daily. Their scalable architecture and security measures have been crucial for our growth.",
     highlight: true
   },
   {
-    initials: "JW",
-    name: "Jenny Wilson",
-    role: "Product Designer",
-    text: "Hired Mohamed for a React project and he nailed the component architecture from the start. Clean code, great communication, and delivered a beautiful UI. Will definitely work together again."
+    initials: "EW",
+    name: "Emily Wilson",
+    role: "Operations Director, LogiTrans",
+    text: "Their business intelligence dashboard provided us with actionable insights that reduced our operational costs significantly. Professional, reliable, and innovative."
   }
 ]
 
@@ -35,7 +35,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="inline-block text-[12px] font-semibold tracking-[0.12em] uppercase text-[var(--accent)] mb-5"
         >
-          Social proof
+          Client Testimonials
         </motion.span>
         <motion.h2
           initial={{ opacity: 0, y: 16 }}
@@ -43,7 +43,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="text-[clamp(32px,5vw,56px)] font-extrabold tracking-[-2px] leading-[1.05] mb-[18px]"
         >
-          People who trust my work.
+          What Our Clients Say.
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 16 }}

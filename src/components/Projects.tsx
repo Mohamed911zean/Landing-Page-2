@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils"
 const projects = [
   {
     tag: "Full Stack",
-    title: "eCommerce Platform",
-    desc: "A full-featured online store with product listings, cart management, and Axios-powered data fetching. Built with React, Swiper for carousels, and a clean component architecture.",
-    stack: ["React", "Axios", "Swiper", "Tailwind"],
+    title: "Enterprise E-commerce Platform",
+    desc: "A comprehensive online store with advanced product management, secure payment integration, and seamless user experience. Delivered to a retail client, increasing sales by 40%.",
+    stack: ["React", "Node.js", "MongoDB", "Stripe"],
     className: "col-span-12 md:col-span-7",
     visual: (
       <div className="mt-5 bg-[var(--bg3)] rounded-xl border border-[var(--border)] p-4 h-[120px] flex items-end gap-2 overflow-hidden">
@@ -26,30 +26,30 @@ const projects = [
     )
   },
   {
-    tag: "REST API",
-    title: "CRUD API with Node.js",
-    desc: "Modular Express API with controllers, routes, and Mongoose models. Tested end-to-end with Postman.",
-    stack: ["Node.js", "Express v4", "MongoDB", "Mongoose"],
+    tag: "API Development",
+    title: "Custom REST API Suite",
+    desc: "Scalable API architecture with authentication, data validation, and comprehensive documentation. Served 500+ concurrent users for a fintech startup.",
+    stack: ["Node.js", "Express", "PostgreSQL", "JWT"],
     className: "col-span-12 md:col-span-5 flex flex-col justify-between",
     extra: (
       <div className="mt-6 pt-6 border-t border-[var(--border)]">
-        <div className="font-display text-[52px] font-extrabold tracking-[-3px] leading-none text-[var(--accent)] mb-2">10+</div>
-        <div className="text-[14px] text-[var(--muted)] leading-[1.5]">endpoints built &<br/>tested with Postman</div>
+        <div className="font-display text-[52px] font-extrabold tracking-[-3px] leading-none text-[var(--accent)] mb-2">50+</div>
+        <div className="text-[14px] text-[var(--muted)] leading-[1.5]">endpoints deployed &<br/>optimized for performance</div>
       </div>
     )
   },
   {
-    tag: "Data Viz",
-    title: "Chart.js Dashboard",
-    desc: "Interactive data dashboard with dynamic Chart.js visualizations and real-time state updates.",
-    stack: ["React", "Chart.js", "TypeScript"],
+    tag: "Data Analytics",
+    title: "Business Intelligence Dashboard",
+    desc: "Real-time data visualization platform with interactive charts and predictive analytics. Helped a logistics company reduce costs by 25%.",
+    stack: ["React", "D3.js", "Python", "AWS"],
     className: "col-span-12 md:col-span-4"
   },
   {
-    tag: "React Patterns",
-    title: "Todo App with useReducer",
-    desc: "A production-quality task management app demonstrating advanced React state management using the useReducer hook and clean component composition — no external state libraries needed.",
-    stack: ["React", "useReducer", "Tailwind", "TypeScript"],
+    tag: "Productivity",
+    title: "Enterprise Task Management System",
+    desc: "Collaborative project management tool with real-time updates, team collaboration features, and advanced reporting. Adopted by 200+ teams.",
+    stack: ["React", "Firebase", "Material-UI", "TypeScript"],
     className: "col-span-12 md:col-span-8"
   }
 ]
@@ -72,7 +72,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-[clamp(32px,5vw,56px)] font-extrabold tracking-[-2px] leading-[1.05] mb-[18px]"
         >
-          Projects I'm proud of.
+          Projects Delivered.
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -80,7 +80,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-[17px] text-[var(--muted)] max-w-[500px] mx-auto mb-16 leading-[1.7]"
         >
-          Real projects, real code, real results. Each one built from scratch.
+          Successful software solutions crafted for clients. From concept to deployment, we deliver quality and innovation.
         </motion.p>
       </div>
 

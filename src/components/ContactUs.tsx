@@ -24,7 +24,7 @@ const ContactUs = () => {
   }
 
   return (
-    <section className="py-20 px-8 relative overflow-hidden">
+    <section className="py-20 px-8 relative overflow-hidden" id="contact">
       <div className="absolute w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(168,255,120,0.05)_0%,transparent_70%)] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
       
       <div className="max-w-4xl mx-auto text-center">

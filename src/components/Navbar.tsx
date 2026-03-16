@@ -24,10 +24,10 @@ const Navbar = () => {
     >
       <div className="max-w-[1200px] mx-auto px-8 flex items-center justify-between">
         <a href="#" className="font-display text-[20px] font-extrabold tracking-[-0.5px] text-[var(--text)]">
-          MILANA<span className="text-[var(--accent)]">.</span>dev
+          NexusSoft
         </a>
         <ul className="hidden md:flex gap-9 list-none">
-          {["Work", "Skills", "Reviews", "Contact"].map((item) => (
+          {["Services", "Expertise", "Testimonials", "Contact"].map((item) => (
             <li key={item}>
               <a
                 href={`#${item.toLowerCase()}`}

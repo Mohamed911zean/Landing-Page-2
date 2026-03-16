@@ -22,7 +22,7 @@ const Skills = () => {
         viewport={{ once: true }}
         className="inline-block text-[12px] font-semibold tracking-[0.12em] uppercase text-[var(--accent)] mb-5"
       >
-        The toolkit
+        Our Expertise
       </motion.span>
       <motion.h2
         initial={{ opacity: 0, y: 16 }}
@@ -30,7 +30,7 @@ const Skills = () => {
         viewport={{ once: true }}
         className="text-[clamp(32px,5vw,56px)] font-extrabold tracking-[-2px] leading-[1.05] mb-[18px]"
       >
-        Code that ships.
+        Solutions that Scale.
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 16 }}
@@ -38,7 +38,7 @@ const Skills = () => {
         viewport={{ once: true }}
         className="text-[17px] text-[var(--muted)] max-w-[500px] mx-auto mb-16 leading-[1.7]"
       >
-        From pixel-perfect UIs to scalable REST APIs — built with modern tools and deployed with care.
+        From enterprise applications to cloud-based systems — we build robust, scalable software that meets your business needs.
       </motion.p>
 
       <div className="relative mac-tilt group">

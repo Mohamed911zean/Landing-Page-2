@@ -15,7 +15,7 @@ const Hero = () => {
         className="inline-flex items-center gap-2 bg-[rgba(168,255,120,0.08)] border border-[rgba(168,255,120,0.2)] rounded-full px-4 py-1.5 text-[13px] text-[var(--accent)] mb-8"
       >
         <span className="w-1.5 h-1.5 bg-[var(--accent)] rounded-full animate-pulse" />
-        Available for freelance & full-time roles
+        Empowering Businesses with Software Solutions
       </motion.div>
 
       <motion.h1
@@ -24,8 +24,8 @@ const Hero = () => {
         transition={{ duration: 0.6, delay: 0.1 }}
         className="text-[clamp(52px,8vw,100px)] font-extrabold leading-[1.0] tracking-[-3px] mb-6"
       >
-        Building the web{" "}
-        <span className="block shimmer-text">that converts.</span>
+        Crafting Software{" "}
+        <span className="block shimmer-text">that Drives Success.</span>
       </motion.h1>
 
       <motion.p
@@ -34,7 +34,7 @@ const Hero = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="text-[clamp(16px,2vw,20px)] text-[var(--muted)] max-w-[560px] leading-[1.7] mb-11"
       >
-        I'm Mohamed — a self-taught MERN stack developer from Mansoura, Egypt. I craft fast, beautiful digital products that users actually love.
+        At Nexus Software Services, we specialize in delivering high-quality software solutions that transform businesses. From custom applications to scalable systems, we turn ideas into reality.
       </motion.p>
 
       <motion.div
@@ -47,7 +47,7 @@ const Hero = () => {
           href="#work"
           className="bg-[var(--accent)] text-[#0a0a0b] font-display text-[15px] font-bold px-8 py-3.5 rounded-full inline-flex items-center gap-2 transition-all hover:bg-[var(--accent-dim)] hover:-translate-y-0.5 hover:shadow-[0_16px_40px_rgba(168,255,120,0.2)]"
         >
-          View my work
+          Explore Our Services
           <ArrowRight size={16} strokeWidth={2.5} />
         </a>
         <a
