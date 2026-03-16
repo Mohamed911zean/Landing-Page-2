@@ -6,6 +6,7 @@ import { Projects } from "@/components/Projects"
 import { Testimonials } from "@/components/Testimonials"
 import { CTA } from "@/components/CTA"
 import { ContactUs } from "@/components/ContactUs"
+import { Newsletter } from "@/components/Newsletter"
 import { Footer } from "@/components/Footer"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Projects />
         <Testimonials />
         <CTA />
+        <Newsletter />
         <ContactUs />
       </main>
       <Footer />
