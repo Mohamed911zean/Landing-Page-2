@@ -24,7 +24,7 @@ const Navbar = () => {
     >
       <div className="max-w-[1200px] mx-auto px-8 flex items-center justify-between">
         <a href="#" className="font-display text-[20px] font-extrabold tracking-[-0.5px] text-[var(--text)]">
-          NexusSoft
+          Milana.soft
         </a>
         <ul className="hidden md:flex gap-9 list-none">
           {["Services", "Expertise", "Testimonials", "Contact"].map((item) => (
